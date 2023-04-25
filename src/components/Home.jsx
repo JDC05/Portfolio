@@ -1,6 +1,5 @@
 import React from "react";
 import Me from "../public/Me.jpg"
-import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
