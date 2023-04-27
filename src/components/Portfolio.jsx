@@ -3,7 +3,7 @@ import Weatherapp from "../public/WeatherApp.png"
 import Todo from "../public/Todo.png"
 import OldPortfolio from "../public/OldPortfolio.png"
 import TradingApp from "../public/TradingApp.png"
-import Chatbot from "../public/ChatBot.png"
+import Tesla from "../public/TeslaClone.png"
 import UE4 from "../public/UE4.png"
 
 export default function Porfolio() {
@@ -21,6 +21,7 @@ export default function Porfolio() {
                         </p>
                         <div className="portfolio-icons">
                             <div>
+                                <i class='bx bxl-css3' ></i>
                                 <i class='bx bxl-react' ></i>
                             </div>
                             <a href="https://github.com/JDC05/Todo-list"><i class='bx bx-link-external'></i></a>
@@ -28,34 +29,20 @@ export default function Porfolio() {
                     </div>
                 </div>
                 <div className="portfolio-box">
-                    <img src={UE4} alt=""/>
+                    <img src={Tesla} alt=""/>
                     <div className="portfolio-layer">
-                        <h4>Shooter game</h4>
+                        <h4>Tesla Clone</h4>
                         <p>
-                        Using blueprints from UE5, the objective of the game is to hit all targets within a time limit 
-                        using a gun. The project involves level creation, widget blueprints and modeling.
+                        Created a Tesla clone which showcases my skills in web development 
+                        and demonstrates my ability to create a visually appealing and interactive website.
                         </p>
                         <div className="portfolio-icons">
                             <div>
-                                <p>UE4</p>
+                            <i class='bx bxl-html5' ></i>
+                            <i class='bx bxl-css3' ></i>
+                            <i class='bx bxl-javascript' ></i>
                             </div>
-                            <a href="https://github.com/JDC05/FirstPersonShooterGame"><i class='bx bx-link-external'></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div className="portfolio-box">
-                    <img src={Chatbot} alt=""/>
-                    <div className="portfolio-layer">
-                        <h4>Chat Bot Program</h4>
-                        <p>
-                        Created a chatbot using Procedural Programming that saves user responses to an external file 
-                        and uses algorithms for efficiency. It relies on abstract data types.
-                        </p>
-                        <div className="portfolio-icons">
-                            <div>
-                                <i class='bx bxl-java' ></i>
-                            </div>
-                            <a href="https://github.com/JDC05/ChatBot"><i class='bx bx-link-external'></i></a>
+                            <a href="https://github.com/JDC05/TeslaClone"><i class='bx bx-link-external'></i></a>
                         </div>
                     </div>
                 </div>
@@ -65,8 +52,7 @@ export default function Porfolio() {
                         <h4>Trading App Simulator</h4>
                         <p>
                         Constructed a Trading App Simulator using OOP with a GUI window using Swing. 
-                        It includes essential features like Exception handling, Inheritance, Polymorphism, 
-                        File I/O, Overriding, and Encapsulation.
+                        It includes essential OOP principles
                         </p>
                         <div className="portfolio-icons">
                             <div>
@@ -87,8 +73,7 @@ export default function Porfolio() {
                         <div className="portfolio-icons">
                             <div>
                                 <i class='bx bxl-javascript'></i>
-                                <i class='bx bxl-php'></i>
-                                <p>SQL</p>
+                                <i class='bx bxl-php'>SQL</i>
                             </div>
                             <a href="https://github.com/JDC05/OldWebsite"><i class='bx bx-link-external'></i></a>
                         </div>
@@ -99,11 +84,13 @@ export default function Porfolio() {
                     <div className="portfolio-layer">
                         <h4>Weather App</h4>
                         <p>
-                            Designed and created a weather app for university students built using React and APIs from weather and TFL, 
-                            which allows users to check the weather and transport information for their location. 
+                        Created a weather app for university students using APIs from weather and TFL. 
+                        Allows users to check weather and transport info for their location.
                         </p>
                         <div className="portfolio-icons">
                             <div>
+                                <i class='bx bxl-html5' ></i>
+                                <i class='bx bxl-css3' ></i>
                                 <i class='bx bxl-react' ></i>
                             </div>
                             <a href="https://github.com/JDC05/weather-app"><i class='bx bx-link-external'></i></a>

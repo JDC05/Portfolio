@@ -13,10 +13,6 @@ export default function Contact() {
                 <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
                 <input type="submit" value="Submit" className="btn"/>
             </form>
-
-            <div className="info">
-                <a href="tel:+44 7542969414"><h3>Phone Number: +44 7542969414</h3></a>             
-            </div>
             
         </section>
     )
