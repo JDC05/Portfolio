@@ -2,9 +2,8 @@ import React from "react"
 import Weatherapp from "../public/WeatherApp.png"
 import Todo from "../public/Todo.png"
 import OldPortfolio from "../public/OldPortfolio.png"
-import TradingApp from "../public/TradingApp.png"
+import ChatApp from "../public/ChatApp.png"
 import Tesla from "../public/TeslaClone.png"
-import UE4 from "../public/UE4.png"
 
 export default function Porfolio() {
     return (
@@ -16,8 +15,8 @@ export default function Porfolio() {
                     <div className="portfolio-layer">
                         <h4>Tesla Clone</h4>
                         <p>
-                        Created a Tesla clone which showcases my skills in web development 
-                        and demonstrates my ability to create a visually appealing and interactive website.
+                        Responsive website that replicates the design and functionality of the official Tesla website, 
+                        it includes a landing page, product information and car gallery
                         </p>
                         <div className="portfolio-icons">
                             <div>
@@ -26,6 +25,24 @@ export default function Porfolio() {
                             <i class='bx bxl-javascript' ></i>
                             </div>
                             <a href="https://github.com/JDC05/TeslaClone"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div className="portfolio-box">
+                    <img src={ChatApp} alt=""/>
+                    <div className="portfolio-layer">
+                        <h4>Chat App</h4>
+                        <p>
+                        Full-stack chat application which allows users to send real-time messages to other users.
+                        It also includes user authentication using Firebase Authentication.
+                        </p>
+                        <div className="portfolio-icons">
+                            <div>
+                                <i class='bx bxl-react' ></i>
+                                <i class='bx bxl-firebase' ></i>
+                                <i class='bx bxl-tailwind-css' ></i>
+                            </div>
+                            <a href="https://github.com/JDC05/ChatApp"><i class='bx bx-link-external'></i></a>
                         </div>
                     </div>
                 </div>
@@ -52,8 +69,7 @@ export default function Porfolio() {
                     <div className="portfolio-layer">
                         <h4>Todo List</h4>
                         <p>
-                        Created a React todo list using hooks, event handlers, and state management. It enables 
-                        users to add, edit, and remove todo items.
+                        Created a React todo list enabling users to add, edit, and remove todo items.
                         </p>
                         <div className="portfolio-icons">
                             <div>
@@ -69,31 +85,16 @@ export default function Porfolio() {
                     <div className="portfolio-layer">
                         <h4>Old Portfolio Website</h4>
                         <p>
-                        Built an online portfolio where registered users can log in and post comments using 
-                        JavaScript, PHP, SQL, and Bootstrap.
+                        Built an online portfolio where registered users can log in and post comments 
                         </p>
                         <div className="portfolio-icons">
                             <div>
                                 <i class='bx bxl-javascript'></i>
-                                <i class='bx bxl-php'>SQL</i>
+                                <i class='bx bxl-bootstrap'></i>
+                                <i class='bx bxl-php'></i>
+                                <i class='bx bxl-postgresql' ></i>
                             </div>
                             <a href="https://github.com/JDC05/OldWebsite"><i class='bx bx-link-external'></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div className="portfolio-box">
-                    <img src={TradingApp} alt=""/>
-                    <div className="portfolio-layer">
-                        <h4>Trading App Simulator</h4>
-                        <p>
-                        Constructed a Trading App Simulator using OOP with a GUI window using Swing. 
-                        It includes essential OOP principles
-                        </p>
-                        <div className="portfolio-icons">
-                            <div>
-                                <i class='bx bxl-java' ></i>
-                            </div>
-                            <a href="https://github.com/JDC05/TradingAppSimulator"><i class='bx bx-link-external'></i></a>
                         </div>
                     </div>
                 </div>
