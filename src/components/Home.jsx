@@ -1,5 +1,6 @@
 import React from "react";
 import Me from "../public/Me.jpg"
+import CV from '../public/CV.pdf';
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/josephdacosta"><i class='bx bxl-linkedin'></i></a>
         </div>
 
-        <a href="Joseph Da Costa - CV.pdf" download="CV.pdf" className="btn">Resume</a>
+        <a href={CV} download="Joseph Da Costa - CV.pdf" className="btn">Resume</a>
       </div>
 
       <div className="home-img">
