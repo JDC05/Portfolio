@@ -73,6 +73,7 @@ export default function Skills() {
 
                             <div>
                                 <span className="qualification_rounder"></span>
+                                <span className="qualification_line"></span>
                             </div>
 
                             <div>
@@ -80,8 +81,18 @@ export default function Skills() {
                                 <span className="qualification_subtitle">Web Programming Course by Harvard University</span>
                                 <div className="qualification_calender">SEPTEMBER - DECEMBER 2022</div>
                             </div>
+                        </div>
+                        <div className="qualification_data">
 
-                            
+                            <div>
+                                <h4 className="qualification_title">Scrimba</h4>
+                                <span className="qualification_subtitle">React Router 6 Course by Scrimba</span>
+                                <div className="qualification_calender">MARCH - MAY 2023</div>
+                            </div>
+
+                            <div>
+                                <span className="qualification_rounder"></span>
+                            </div>
 
                         </div>
                     </div>
