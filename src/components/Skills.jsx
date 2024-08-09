@@ -138,8 +138,25 @@ export default function Skills() {
 
                             <div>
                                 <span className="qualification_rounder"></span>
+                                <span className="qualification_line"></span>
                             </div>
 
+                        </div>
+
+                        <div className="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span className="qualification_rounder"></span>                     
+                            </div>
+
+                            <div>
+                                <h4 className="qualification_title">Software Enginner Placement</h4>
+                                <span className="qualification_subtitle">Amplifi Capital</span>
+                                <div className="qualification_calender">SEPTEMBER 2023 - SEPTEMBER 2024</div>
+                            </div>
+
+                            
                         </div>
                     </div>
                     )}

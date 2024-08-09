@@ -52,7 +52,7 @@ export default function Header() {
       <nav className={menu ? "navbar active" : "navbar"} onClick={menuIcon}>
         <a href="#home" className={activeItem === "home" ? "active" : ""}>Home</a>
         <a href="#skills" className={activeItem === "skills" || location.pathname === "/skills" ? "active" : ""}>Skills</a>
-        <a href="#portfolio" className={activeItem === "portfolio" ? "active" : ""}>Portfolio</a>
+        {/* <a href="#portfolio" className={activeItem === "portfolio" ? "active" : ""}>Portfolio</a> */}
         <a href="#contact" className={activeItem === "contact" || location.pathname === "/contact" ? "active" : ""}>Contact</a>
       </nav>
 
