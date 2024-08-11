@@ -1,9 +1,7 @@
 import React from "react"
-import Weatherapp from "../public/WeatherApp.png"
-import Todo from "../public/Todo.png"
-import OldPortfolio from "../public/OldPortfolio.png"
 import ChatApp from "../public/ChatApp.png"
 import Tesla from "../public/TeslaClone.png"
+import Weatherapp from "../public/WeatherApp.png"
 
 export default function Porfolio() {
     return (
@@ -61,40 +59,6 @@ export default function Porfolio() {
                                 <i class='bx bxl-react' ></i>
                             </div>
                             <a href="https://github.com/JDC05/weather-app"><i class='bx bx-link-external'></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div className="portfolio-box">
-                    <img src={Todo} alt=""/>
-                    <div className="portfolio-layer">
-                        <h4>Todo List</h4>
-                        <p>
-                        Created a React todo list enabling users to add, edit, and remove todo items.
-                        </p>
-                        <div className="portfolio-icons">
-                            <div>
-                                <i class='bx bxl-css3' ></i>
-                                <i class='bx bxl-react' ></i>
-                            </div>
-                            <a href="https://github.com/JDC05/Todo-list"><i class='bx bx-link-external'></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div className="portfolio-box">
-                    <img src={OldPortfolio} alt=""/>
-                    <div className="portfolio-layer">
-                        <h4>Old Portfolio Website</h4>
-                        <p>
-                        Built an online portfolio where registered users can log in and post comments 
-                        </p>
-                        <div className="portfolio-icons">
-                            <div>
-                                <i class='bx bxl-javascript'></i>
-                                <i class='bx bxl-bootstrap'></i>
-                                <i class='bx bxl-php'></i>
-                                <i class='bx bxl-postgresql' ></i>
-                            </div>
-                            <a href="https://github.com/JDC05/OldWebsite"><i class='bx bx-link-external'></i></a>
                         </div>
                     </div>
                 </div>

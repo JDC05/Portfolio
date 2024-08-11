@@ -175,6 +175,9 @@ export default function Skills() {
                     <i class='bx bxl-java' ></i>
                     <i class='bx bxl-typescript' ></i>
                     <i class='bx bxl-django' ></i>
+                    <i class='bx bxl-angular' ></i>
+                    <i class='bx bxl-git' ></i>
+                    <i class='bx bxl-tailwind-css' ></i>
                 </div>
                 
             </div>
