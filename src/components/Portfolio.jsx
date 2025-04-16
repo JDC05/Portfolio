@@ -2,6 +2,7 @@ import React from "react"
 import ChatApp from "../public/ChatApp.png"
 import Tesla from "../public/TeslaClone.png"
 import Weatherapp from "../public/WeatherApp.png"
+import Padel from "../public/Padel.png"
 
 export default function Porfolio() {
     return (
@@ -59,6 +60,22 @@ export default function Porfolio() {
                                 <i class='bx bxl-react' ></i>
                             </div>
                             <a href="https://github.com/JDC05/weather-app"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div className="portfolio-box">
+                    <img src={Padel} alt=""/>
+                    <div className="portfolio-layer">
+                        <h4>Web Scraper</h4>
+                        <p>
+                        Created a script which automates checking for available booking slots at Rocket Padel Ilford using Puppeteer 
+                        It scans availability for the next 7 days and logs open time slots in a structured format.
+                        </p>
+                        <div className="portfolio-icons">
+                            <div>
+                                <i class='bx bxl-javascript' ></i>
+                            </div>
+                            <a href="https://github.com/JDC05/Scraper"><i class='bx bx-link-external'></i></a>
                         </div>
                     </div>
                 </div>
