@@ -3,6 +3,8 @@ import ChatApp from "../public/ChatApp.png"
 import Tesla from "../public/TeslaClone.png"
 import Weatherapp from "../public/WeatherApp.png"
 import Padel from "../public/Padel.png"
+import picture1 from "../public/Picture1.png"
+import picture2 from "../public/Picture2.png"
 
 export default function Porfolio() {
     return (
@@ -76,6 +78,37 @@ export default function Porfolio() {
                                 <i class='bx bxl-javascript' ></i>
                             </div>
                             <a href="https://github.com/JDC05/Scraper"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div className="portfolio-box">
+                    <img src={picture1} alt=""/>
+                    <div className="portfolio-layer">
+                        <h4>My own HTTP Server</h4>
+                        <p>
+                        A lightweight multithreaded TCP server written in Rust. Supports file uploading (POST), downloading (GET), 
+                        echo responses (with optional gzip encoding), and user-agent inspection.
+                        </p>
+                        <div className="portfolio-icons">
+                            <div>
+                            </div>
+                            <a href="https://github.com/JDC05/HTTPServer"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div className="portfolio-box">
+                    <img src={picture2} alt=""/>
+                    <div className="portfolio-layer">
+                        <h4>CIFAR-10_Classification</h4>
+                        <p>
+                        A PyTorch implementation of a custom neural network architecture for CIFAR-10 image classification, 
+                        featuring attention mechanisms and data augmentation.
+                        </p>
+                        <div className="portfolio-icons">
+                            <div>
+                                <i class='bx bxl-python'></i>
+                            </div>
+                            <a href="https://github.com/JDC05/CIFAR-10_Classification"><i class='bx bx-link-external'></i></a>
                         </div>
                     </div>
                 </div>
