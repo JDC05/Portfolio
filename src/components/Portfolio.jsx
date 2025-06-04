@@ -3,8 +3,9 @@ import ChatApp from "../public/ChatApp.png"
 import Tesla from "../public/TeslaClone.png"
 import Weatherapp from "../public/WeatherApp.png"
 import Padel from "../public/Padel.png"
-import picture1 from "../public/Picture1.png"
-import picture2 from "../public/Picture2.png"
+import emotionClassifier from "../public/emotionClassifier.jpeg"
+import CIFAR10 from "../public/CIFAR10.png"
+import finalReport from '../public/Final Report.pdf';
 
 export default function Porfolio() {
     return (
@@ -82,22 +83,25 @@ export default function Porfolio() {
                     </div>
                 </div>
                 <div className="portfolio-box">
-                    <img src={picture1} alt=""/>
+                    <img src={emotionClassifier} alt=""/>
                     <div className="portfolio-layer">
-                        <h4>My own HTTP Server</h4>
+                        <h4>Final Year Project</h4>
                         <p>
-                        A lightweight multithreaded TCP server written in Rust. Supports file uploading (POST), downloading (GET), 
-                        echo responses (with optional gzip encoding), and user-agent inspection.
+                        This project developed an AI system that classifies human emotions by analyzing eye movement patterns 
+                        (fixations, saccades) and pupil dilation using a bidirectional LSTM model, achieving 75% accuracy. 
                         </p>
                         <div className="portfolio-icons">
                             <div>
                             </div>
-                            <a href="https://github.com/JDC05/HTTPServer"><i class='bx bx-link-external'></i></a>
+                            <a href="https://github.com/JDC05/emotionClassifier"><i class='bx bx-link-external'></i></a>
+                            <a href={finalReport} download="FinalReport.pdf" className="download-icon">
+                                <i class='bx bx-download'></i>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div className="portfolio-box">
-                    <img src={picture2} alt=""/>
+                    <img src={CIFAR10} alt=""/>
                     <div className="portfolio-layer">
                         <h4>CIFAR-10_Classification</h4>
                         <p>
