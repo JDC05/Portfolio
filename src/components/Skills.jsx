@@ -163,24 +163,6 @@ export default function Skills() {
                 </div>
                     
             </div>
-            <div className="technology-content">
-                <h2 className="heading">Technologies</h2>
-                <div className="technologies">
-                    <i class='bx bxl-html5' ></i>
-                    <i class='bx bxl-css3' ></i>
-                    <i class='bx bxl-javascript' ></i>
-                    <i class='bx bxl-react' ></i>
-                    <i class='bx bxl-firebase' ></i>
-                    <i class='bx bxl-python' ></i>
-                    <i class='bx bxl-java' ></i>
-                    <i class='bx bxl-typescript' ></i>
-                    <i class='bx bxl-django' ></i>
-                    <i class='bx bxl-angular' ></i>
-                    <i class='bx bxl-git' ></i>
-                    <i class='bx bxl-tailwind-css' ></i>
-                </div>
-                
-            </div>
         </section>
     )
 }

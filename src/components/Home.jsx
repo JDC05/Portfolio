@@ -9,10 +9,12 @@ export default function Home() {
         <h3>Hello, I am</h3>
         <h1>Joseph Da Costa</h1>
         <p>
-          A top-performing student within the School of Electronic Engineering and Computer Science at Queen Mary 
-          University of London. A motivated, adaptable, and responsible student who can swiftly master 
-          new abilities on their own. Looking for a demanding and creative career in the technology 
-          industry right now.
+        Final-year Computer Science student at Queen Mary University of London, on track for First-Class Honours, 
+        with a year of industry experience as a Software Engineer at Amplifi Capital. I enjoy solving real-world 
+        problems with clean, scalable software — from full-stack development and Java microservices to AI projects 
+        in deep learning and game development in Unity. I'm actively seeking opportunities in the tech industry 
+        where I can contribute to impactful products, grow my engineering skills, and collaborate with others 
+        to build meaningful solutions.
         </p>
       
         <div className="social-media">
