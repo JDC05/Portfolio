@@ -1,6 +1,6 @@
 import React from "react"
-import ChatApp from "../public/ChatApp.png"
-import Tesla from "../public/TeslaClone.png"
+import DiscordLogo from "../public/DiscordLogo.png"
+import NetflixLogo from "../public/NetflixLogo.jpg"
 import Weatherapp from "../public/WeatherApp.png"
 import Padel from "../public/Padel.png"
 import EmotionClassifier from "../public/EmotionClassifier.jpeg"
@@ -13,20 +13,20 @@ export default function Porfolio() {
             <h2 className="heading">Projects</h2>
             <div className="portfolio-container">
                 <div className="portfolio-box">
-                    <img src={Tesla} alt=""/>
+                    <img src={NetflixLogo} alt=""/>
                     <div className="portfolio-layer">
-                        <h4>TESLA CLONE</h4>
+                        <h4>NETFLIX CLONE</h4>
                         <p>
-                        Responsive website that replicates the design and functionality of the official Tesla website, 
-                        it includes a landing page, product information and car gallery
+                        Built a Netflix clone using ReactJS, Firebase for auth and database, Styled Components for UI, 
+                        and Fuse.js for live search. Includes Sign In/Up, Home, and Browse pages.
                         </p>
                         <div className="portfolio-icons">
-                            <a href="https://github.com/JDC05/TeslaClone"><i class='bx bx-link-external'></i></a>
+                            <a href="https://github.com/JDC05/NetflixClone"><i class='bx bx-link-external'></i></a>
                         </div>
                     </div>
                 </div>
                 <div className="portfolio-box">
-                    <img src={ChatApp} alt=""/>
+                    <img src={DiscordLogo} alt=""/>
                     <div className="portfolio-layer">
                         <h4>MERN DISCORD CLONE</h4>
                         <p>
@@ -56,7 +56,7 @@ export default function Porfolio() {
                     <div className="portfolio-layer">
                         <h4>WEB SCRAPER</h4>
                         <p>
-                        Created a script which automates checking for available booking slots at Rocket Padel Ilford using Puppeteer 
+                        Created a script which automates checking for available booking slots on a Rocket Padel website using Puppeteer. 
                         It scans availability for the next 7 days and logs open time slots in a structured format.
                         </p>
                         <div className="portfolio-icons">
@@ -69,8 +69,8 @@ export default function Porfolio() {
                     <div className="portfolio-layer">
                         <h4>FINAL YEAR PROJECT</h4>
                         <p>
-                        This project developed an AI system that classifies human emotions by analyzing eye movement patterns 
-                        (fixations, saccades) and pupil dilation using a bidirectional LSTM model, achieving 75% accuracy. 
+                        This project researched and developed an AI system that classifies human emotions by analyzing eye movement patterns 
+                        and pupil dilation using a bidirectional LSTM model, achieving 75% accuracy. 
                         </p>
                         <div className="portfolio-icons">
                             <div>
@@ -85,7 +85,7 @@ export default function Porfolio() {
                 <div className="portfolio-box">
                     <img src={CIFAR10} alt=""/>
                     <div className="portfolio-layer">
-                        <h4>CIFAR-10_CLASSIFICATION</h4>
+                        <h4>CLASSIFICATION MODEL</h4>
                         <p>
                         A PyTorch implementation of a custom neural network architecture for CIFAR-10 image classification, 
                         featuring attention mechanisms and data augmentation.
