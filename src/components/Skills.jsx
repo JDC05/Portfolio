@@ -58,8 +58,11 @@ export default function Skills() {
 
                             <div>
                                 <h4 className="qualification_title">Computer Science</h4>
-                                <span className="qualification_subtitle">Queen Mary University of London</span>
-                                <div className="qualification_calender">2021 - Now</div>
+                                <span className="qualification_subtitle">
+                                    Queen Mary University of London
+                                    <br/>First-Class Honours (1st)
+                                </span>
+                                <div className="qualification_calender">2021 - 2025</div>
                             </div>
 
                             <div>
@@ -147,7 +150,8 @@ export default function Skills() {
                             <div></div>
 
                             <div>
-                                <span className="qualification_rounder"></span>                     
+                                <span className="qualification_rounder"></span>
+                                <span className="qualification_line"></span>
                             </div>
 
                             <div>
@@ -155,9 +159,24 @@ export default function Skills() {
                                 <span className="qualification_subtitle">Amplifi Capital</span>
                                 <div className="qualification_calender">SEPTEMBER 2023 - SEPTEMBER 2024</div>
                             </div>
-
                             
                         </div>
+
+                        <div className="qualification_data">
+
+                            <div>
+                                <h4 className="qualification_title">Technical Contributor</h4>
+                                <span className="qualification_subtitle">Hiro Capital</span>
+                                <div className="qualification_calender">JULY - AUGUST 2025</div>
+                            </div>
+
+                            <div>
+                                <span className="qualification_rounder"></span>
+                            </div>
+
+                        </div>
+
+
                     </div>
                     )}
                 </div>
